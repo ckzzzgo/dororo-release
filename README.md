@@ -31,8 +31,9 @@ https://raw.githubusercontent.com/ckzzzgo/dororo-release/main/version.json
 | `package.size` | 字节数，用于显示下载进度 |
 | `package.sha256` | 校验值，下载后必须比对，避免用到损坏或被篡改的包 |
 
-之所以用 raw 地址而不是 GitHub API：raw 没有 API 那样的每小时 60 次匿名限流，
-对「每天检查一次」这种用法更稳，也不需要任何凭据。
+之所以用 raw 地址而不是 GitHub API：raw 不需要任何凭据，也没有 API 那样明确的
+每小时 60 次匿名配额。但要注意 raw 同样有防滥用限流，短时间内反复请求会返回
+`429 Too Many Requests`。桌宠只在用户手动点「检查更新」时请求一次，正常使用撞不到。
 
 发版时由源码仓库的 `tools/build_release.ps1` 生成新的 `version.json`，
 连同安装包一起发布到这里。
