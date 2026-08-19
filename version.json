@@ -1,11 +1,11 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "released": "2026-08-19",
-  "notes_url": "https://github.com/ckzzzgo/dororo-release/releases/tag/v1.2.2",
+  "notes_url": "https://github.com/ckzzzgo/dororo-release/releases/tag/v1.2.3",
   "package": {
-    "name": "Dororo_v1.2.2_win.zip",
-    "url": "https://github.com/ckzzzgo/dororo-release/releases/download/v1.2.2/Dororo_v1.2.2_win.zip",
-    "size": 109372297,
-    "sha256": "714009144406945a8f863c101970ee87f66bc28aa2407c781f2482a492f3865c"
+    "name": "Dororo_v1.2.3_win.zip",
+    "url": "https://github.com/ckzzzgo/dororo-release/releases/download/v1.2.3/Dororo_v1.2.3_win.zip",
+    "size": 109373064,
+    "sha256": "7e8426c7ef5b96602692cfbc4f0db91e1777ec10a6fd88b645fc8ed81f27c4fe"
   }
 }
